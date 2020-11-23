@@ -8,8 +8,13 @@ def multiplica(a, b):
 	print ("Produto = ", a*b)
 
 def divide(a, b):
+        if b == 0:
+                print("Não é possivel dividir por zero")
+        
 	# Testar se b é diferente de zero
-	print ("Divisão = ", a/b)
+        else:
+                print ("Divisão = ", a/b)
+	
 
 
 #Programa principal
@@ -23,3 +28,4 @@ soma(num1, num2)
 subtrai(num1, num2)
 multiplica(num1, num2)
 divide(num1, num2)
+
