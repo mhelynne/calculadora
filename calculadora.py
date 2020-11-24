@@ -11,9 +11,9 @@ def divide(a, b):
 	# Testar se b é diferente de zero
 	print ("Divisão = ", a/b)
 	if b!=0:
-            print ("Divisão = ", a/b)
-        else:
-            print("Não é possível dividir por zero")
+        	print ("Divisão = ",a/b)
+    	else:
+        	print ("Não é possível dividir por zero")
 
 #Programa principal
 
