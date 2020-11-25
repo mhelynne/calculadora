@@ -8,8 +8,11 @@ def multiplica(a, b):
 	print ("Produto = ", a*b)
 
 def divide(a, b):
+        if b == 0:
+                print ( "Não é possível dividir por zero")
+        else : 
 	# Testar se b é diferente de zero
-	print ("Divisão = ", a/b)
+                        print ("Divisão = ", a/b)
 
 
 #Programa principal
